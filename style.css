@@ -1,0 +1,74 @@
+.header{
+    background-color: rgb(122, 220, 255);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.logo{
+    
+    text-transform: uppercase;
+    text-align: bold;
+
+}
+.menu{
+    display: flex;
+    list-style: none;
+
+}
+.menu-item{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.main{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.contenedor-gatos-adopcion{
+    display: flex;
+    flex-flow: row wrap;
+    margin: -15px;
+}
+
+.gato-adopcion{
+    flex-basis:calc(100% / 2) ;
+    padding: 15px;
+}
+
+.gato-adopcion-img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.gato-adopcion-nombre{
+    display: inline;
+    margin-right: 280px;
+}
+
+.btn-adoptar{
+    font-size: 1em;
+    width: 150px;
+    padding: 7px;
+    border-radius: 30px;
+    background-color: rgb(28, 194, 255);
+    color: #000000;
+}
+
+.gato-adopcion-descripcion{
+    text-align: justify;
+}
+
+
+
+
+
+.footer{
+    text-align: center;
+    background-color:  rgb(122, 220, 255);
+}

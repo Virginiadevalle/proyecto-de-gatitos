@@ -49,6 +49,11 @@
     width: 100%;
 }
 
+.gato-adopcion-nombre-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
 .gato-adopcion-nombre{
     display: inline;
 }
@@ -92,6 +97,13 @@
     .gato-adopcion{
         flex-basis: calc(100% / 2) ;
     }
+    .header{
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .menu{
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -110,4 +122,5 @@
     .presentacion{
         text-align: left;
     }
+    
 }

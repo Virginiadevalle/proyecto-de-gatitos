@@ -30,13 +30,14 @@
 
 .contenedor-gatos-adopcion{
     display: flex;
-    flex-flow: row wrap;
-    margin: -15px;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .gato-adopcion{
-    flex-basis:calc(100% / 2) ;
-    padding: 15px;
+    flex-basis:calc(100% / 3) ;
+    padding: 0 15px;
 }
 
 .gato-adopcion-img{
@@ -48,16 +49,15 @@
 
 .gato-adopcion-nombre{
     display: inline;
-    margin-right: 280px;
 }
 
 .btn-adoptar{
     font-size: 1em;
-    width: 150px;
-    padding: 7px;
+    padding: 7px 20px;
     border-radius: 30px;
     background-color: rgb(28, 194, 255);
     color: #000000;
+    border: none;
 }
 
 .gato-adopcion-descripcion{

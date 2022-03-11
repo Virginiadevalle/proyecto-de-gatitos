@@ -16,4 +16,5 @@ p{
 
 a{
     word-break: break-all;
+    display: none;
 }
